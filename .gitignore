@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+db_config.php
+db_config.local.php
+SAKURA_DEPLOY_GUIDE.md
+sakura_database.sql
+ManiArc_mini*_PHP仕様書.md
+
+# Runtime data
+data/*.csv
+!data/.gitkeep
+!data/.htaccess
+*.log
+logs/
+
+# Dependencies / build artifacts
+vendor/
+node_modules/
+dist/
+coverage/
